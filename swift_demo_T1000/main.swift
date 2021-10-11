@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Enter your mark")
+var mark = Utils.readDouble()
+print("Enter your Full mark")
+var fullmark = Utils.readInt()
+
+
+
+print("PCT =",(mark) / Double(fullmark) * 100)
+
 
