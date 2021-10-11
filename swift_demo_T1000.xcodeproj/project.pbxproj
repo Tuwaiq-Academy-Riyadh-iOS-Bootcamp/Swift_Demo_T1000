@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A021DB8B27142D5A00BC6748 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A021DB8A27142D5A00BC6748 /* check_mark.swift */; };
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A021DB8A27142D5A00BC6748 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -40,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A021DB8827142D1400BC6748 /* week1 */ = {
+			isa = PBXGroup;
+			children = (
+				A021DB8927142D3500BC6748 /* day1 */,
+			);
+			path = week1;
+			sourceTree = "<group>";
+		};
+		A021DB8927142D3500BC6748 /* day1 */ = {
+			isa = PBXGroup;
+			children = (
+				A021DB8A27142D5A00BC6748 /* check_mark.swift */,
+			);
+			path = day1;
+			sourceTree = "<group>";
+		};
 		CE02B51F27140BEA00861F3D = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +77,7 @@
 		CE02B52A27140BEB00861F3D /* swift_demo_T1000 */ = {
 			isa = PBXGroup;
 			children = (
+				A021DB8827142D1400BC6748 /* week1 */,
 				CE02B52B27140BEB00861F3D /* main.swift */,
 				CE02B53427140DC100861F3D /* utils.swift */,
 			);
@@ -124,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
+				A021DB8B27142D5A00BC6748 /* check_mark.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+print ("Enter the hight: ")
+let hight = Utils.readDouble()
 
+print ("Enter the weihgt:")
+
+let weight = Utils.readDouble()
+
+let h = (hight/100)
+let bmi = weight / pow(h , 2)
+ print ( round(bmi * 100) / 100, "%")
