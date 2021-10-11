@@ -1,26 +1,24 @@
 //
-//  main.swift
+//  compute_salary_v2.swift
 //  swift_demo_T1000
 //
 //  Created by user on 10/11/21.
 //
 
-import Foundation
-
+//import Foundation
+//
 //print("Enter your salary: ", terminator: "")
 //let salary = Utils.readInt()
 //let annualSalary = salary * 12
 //print("Annual Salary:", annualSalary)
 //
-//if salary >= 12000 {
+//switch salary {
+//case 12000...:
 //    print("High Salary")
-//}
-//else if salary >= 6000 {
+//case 6000..<12000:
 //    print("Normal Salary")
-//}
-//else if salary >= 3000 {
+//case 3000..<6000:
 //    print("Low Salary")
-//}
-//else {
+//default:
 //    print("Very Low Salary")
 //}

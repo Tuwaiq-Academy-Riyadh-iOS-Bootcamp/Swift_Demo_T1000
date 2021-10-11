@@ -7,8 +7,3 @@
 
 import Foundation
 
-print("Enter your salary: ", terminator: "")
-let salary = Utils.readInt()
-let annualSalary = salary * 12
-print("Annual Salary:", annualSalary)
-
