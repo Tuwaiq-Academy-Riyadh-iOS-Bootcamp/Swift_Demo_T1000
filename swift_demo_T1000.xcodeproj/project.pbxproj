@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88DCE7FF27144F4300EC7990 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCE7FE27144F4300EC7990 /* check_mark.swift */; };
+		88DCE80127144F6C00EC7990 /* Bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCE80027144F6C00EC7990 /* Bmi.swift */; };
+		88DCE8032714590A00EC7990 /* checkdayes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCE8022714590A00EC7990 /* checkdayes.swift */; };
+		88DCE807271495AB00EC7990 /* Checkanswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCE806271495AB00EC7990 /* Checkanswer.swift */; };
+		88DCE80B27149DA100EC7990 /* HW1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCE80A27149DA100EC7990 /* HW1.swift */; };
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		88DCE7FE27144F4300EC7990 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
+		88DCE80027144F6C00EC7990 /* Bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bmi.swift; sourceTree = "<group>"; };
+		88DCE8022714590A00EC7990 /* checkdayes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkdayes.swift; sourceTree = "<group>"; };
+		88DCE806271495AB00EC7990 /* Checkanswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkanswer.swift; sourceTree = "<group>"; };
+		88DCE80A27149DA100EC7990 /* HW1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1.swift; sourceTree = "<group>"; };
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -40,6 +50,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88DCE7FC27144EBF00EC7990 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				88DCE809271495E300EC7990 /* Day2 */,
+				88DCE7FD27144ECC00EC7990 /* Day1 */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		88DCE7FD27144ECC00EC7990 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				88DCE7FE27144F4300EC7990 /* check_mark.swift */,
+				88DCE80027144F6C00EC7990 /* Bmi.swift */,
+				88DCE8022714590A00EC7990 /* checkdayes.swift */,
+				88DCE806271495AB00EC7990 /* Checkanswer.swift */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		88DCE809271495E300EC7990 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				88DCE80A27149DA100EC7990 /* HW1.swift */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
 		CE02B51F27140BEA00861F3D = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +97,7 @@
 		CE02B52A27140BEB00861F3D /* swift_demo_T1000 */ = {
 			isa = PBXGroup;
 			children = (
+				88DCE7FC27144EBF00EC7990 /* Week1 */,
 				CE02B52B27140BEB00861F3D /* main.swift */,
 				CE02B53427140DC100861F3D /* utils.swift */,
 			);
@@ -123,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DCE80127144F6C00EC7990 /* Bmi.swift in Sources */,
+				88DCE80B27149DA100EC7990 /* HW1.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
+				88DCE807271495AB00EC7990 /* Checkanswer.swift in Sources */,
+				88DCE7FF27144F4300EC7990 /* check_mark.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
+				88DCE8032714590A00EC7990 /* checkdayes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
