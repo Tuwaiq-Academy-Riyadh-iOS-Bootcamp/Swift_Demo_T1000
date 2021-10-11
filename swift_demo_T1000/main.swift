@@ -7,13 +7,8 @@
 
 import Foundation
 
-print("Enter three marks: ")
-let m1 = Utils.readInt()
-let m2 = Utils.readInt()
-let m3 = Utils.readInt()
+print("Enter your salary: ", terminator: "")
+let salary = Utils.readInt()
+let annualSalary = salary * 12
+print("Annual Salary:", annualSalary)
 
-let avg = Double(m1 + m2 + m3) / 3
-
-print("Average mark:", round(avg * 100) / 100)
-print("Best mark:", max(m1, m2, m3))
-print("Worst mark:", min(m1, m2, m3))
