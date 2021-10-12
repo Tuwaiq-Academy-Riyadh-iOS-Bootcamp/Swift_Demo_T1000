@@ -9,13 +9,6 @@
 /* Begin PBXBuildFile section */
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
-		CE02B5392714163A00861F3D /* errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B5382714163A00861F3D /* errors.swift */; };
-		CE02B53B271420A900861F3D /* analyze_marks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53A271420A900861F3D /* analyze_marks.swift */; };
-		CE02B53D2714219000861F3D /* compute_salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53C2714219000861F3D /* compute_salary.swift */; };
-		CE02B54127142C7000861F3D /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B54027142C7000861F3D /* check_mark.swift */; };
-		CE02B5472714532400861F3D /* check_day.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B5462714532400861F3D /* check_day.swift */; };
-		CE02B549271456A600861F3D /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B548271456A600861F3D /* quiz.swift */; };
-		CE02B54B2714590B00861F3D /* compute_salary_v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B54A2714590B00861F3D /* compute_salary_v2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,23 +27,6 @@
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
-		CE02B5382714163A00861F3D /* errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errors.swift; sourceTree = "<group>"; };
-		CE02B53A271420A900861F3D /* analyze_marks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = analyze_marks.swift; sourceTree = "<group>"; };
-		CE02B53C2714219000861F3D /* compute_salary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compute_salary.swift; sourceTree = "<group>"; };
-		CE02B54027142C7000861F3D /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
-		CE02B542271431A900861F3D /* lab_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_1.jpeg; sourceTree = "<group>"; };
-		CE02B543271431A900861F3D /* sketch_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_1.jpeg; sourceTree = "<group>"; };
-		CE02B544271431A900861F3D /* sketch_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_3.jpeg; sourceTree = "<group>"; };
-		CE02B545271431A900861F3D /* sketch_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_2.jpeg; sourceTree = "<group>"; };
-		CE02B5462714532400861F3D /* check_day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_day.swift; sourceTree = "<group>"; };
-		CE02B548271456A600861F3D /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
-		CE02B54A2714590B00861F3D /* compute_salary_v2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compute_salary_v2.swift; sourceTree = "<group>"; };
-		CE02B54C2714602000861F3D /* lab_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_2.jpeg; sourceTree = "<group>"; };
-		CE02B54D2714602000861F3D /* lab_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_3.jpeg; sourceTree = "<group>"; };
-		CE02B54E2714602000861F3D /* sketch_7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_7.jpeg; sourceTree = "<group>"; };
-		CE02B54F2714602000861F3D /* sketch_5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_5.jpeg; sourceTree = "<group>"; };
-		CE02B5502714602000861F3D /* sketch_4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_4.jpeg; sourceTree = "<group>"; };
-		CE02B5512714602000861F3D /* sketch_6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_6.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,23 +77,6 @@
 		CE02B5372714161700861F3D /* day1 */ = {
 			isa = PBXGroup;
 			children = (
-				CE02B5502714602000861F3D /* sketch_4.jpeg */,
-				CE02B54F2714602000861F3D /* sketch_5.jpeg */,
-				CE02B5512714602000861F3D /* sketch_6.jpeg */,
-				CE02B54C2714602000861F3D /* lab_2.jpeg */,
-				CE02B54D2714602000861F3D /* lab_3.jpeg */,
-				CE02B54E2714602000861F3D /* sketch_7.jpeg */,
-				CE02B545271431A900861F3D /* sketch_2.jpeg */,
-				CE02B542271431A900861F3D /* lab_1.jpeg */,
-				CE02B544271431A900861F3D /* sketch_3.jpeg */,
-				CE02B543271431A900861F3D /* sketch_1.jpeg */,
-				CE02B5382714163A00861F3D /* errors.swift */,
-				CE02B53A271420A900861F3D /* analyze_marks.swift */,
-				CE02B53C2714219000861F3D /* compute_salary.swift */,
-				CE02B54027142C7000861F3D /* check_mark.swift */,
-				CE02B5462714532400861F3D /* check_day.swift */,
-				CE02B548271456A600861F3D /* quiz.swift */,
-				CE02B54A2714590B00861F3D /* compute_salary_v2.swift */,
 			);
 			path = day1;
 			sourceTree = "<group>";
@@ -181,14 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
-				CE02B54127142C7000861F3D /* check_mark.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
-				CE02B5472714532400861F3D /* check_day.swift in Sources */,
-				CE02B5392714163A00861F3D /* errors.swift in Sources */,
-				CE02B53B271420A900861F3D /* analyze_marks.swift in Sources */,
-				CE02B54B2714590B00861F3D /* compute_salary_v2.swift in Sources */,
-				CE02B549271456A600861F3D /* quiz.swift in Sources */,
-				CE02B53D2714219000861F3D /* compute_salary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
