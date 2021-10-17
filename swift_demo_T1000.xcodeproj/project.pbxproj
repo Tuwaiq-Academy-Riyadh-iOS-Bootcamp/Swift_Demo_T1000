@@ -35,6 +35,14 @@
 		CE3F583A2718AE4600A569FA /* call_functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F58312718AE4600A569FA /* call_functions.swift */; };
 		CE3F583B2718AE4600A569FA /* my_functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F58342718AE4600A569FA /* my_functions.swift */; };
 		CE3F583C2718AE4600A569FA /* print_primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F58382718AE4600A569FA /* print_primes.swift */; };
+		CE3F5846271BFE4E00A569FA /* rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5845271BFE4E00A569FA /* rectangle.swift */; };
+		CE3F5848271C059400A569FA /* test_rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5847271C059400A569FA /* test_rectangle.swift */; };
+		CE3F584A271C05A700A569FA /* patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5849271C05A600A569FA /* patient.swift */; };
+		CE3F584C271C09F300A569FA /* test_patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F584B271C09F300A569FA /* test_patient.swift */; };
+		CE3F584E271C121200A569FA /* employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F584D271C121200A569FA /* employee.swift */; };
+		CE3F5850271C2EE200A569FA /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F584F271C2EE200A569FA /* student.swift */; };
+		CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5851271C30AB00A569FA /* test_employee.swift */; };
+		CE3F5854271C45FB00A569FA /* test_student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5853271C45FB00A569FA /* test_student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +109,19 @@
 		CE3F58362718AE4600A569FA /* sketch_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_2.jpeg; sourceTree = "<group>"; };
 		CE3F58372718AE4600A569FA /* sketch_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_3.jpeg; sourceTree = "<group>"; };
 		CE3F58382718AE4600A569FA /* print_primes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = print_primes.swift; sourceTree = "<group>"; };
+		CE3F5845271BFE4E00A569FA /* rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rectangle.swift; sourceTree = "<group>"; };
+		CE3F5847271C059400A569FA /* test_rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_rectangle.swift; sourceTree = "<group>"; };
+		CE3F5849271C05A600A569FA /* patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient.swift; sourceTree = "<group>"; };
+		CE3F584B271C09F300A569FA /* test_patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_patient.swift; sourceTree = "<group>"; };
+		CE3F584D271C121200A569FA /* employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employee.swift; sourceTree = "<group>"; };
+		CE3F584F271C2EE200A569FA /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		CE3F5851271C30AB00A569FA /* test_employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_employee.swift; sourceTree = "<group>"; };
+		CE3F5853271C45FB00A569FA /* test_student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_student.swift; sourceTree = "<group>"; };
+		CE3F585A271C47D800A569FA /* sketch_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_2.jpeg; sourceTree = "<group>"; };
+		CE3F585B271C47D800A569FA /* lab_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_2.jpeg; sourceTree = "<group>"; };
+		CE3F585C271C47D800A569FA /* sketch_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_1.jpeg; sourceTree = "<group>"; };
+		CE3F585D271C47D800A569FA /* lab_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_1.jpeg; sourceTree = "<group>"; };
+		CE3F585E271C47D800A569FA /* sketch_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +154,7 @@
 		CE02B52A27140BEB00861F3D /* swift_demo_T1000 */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F5843271BFB0F00A569FA /* week2 */,
 				CE02B5362714160E00861F3D /* week1 */,
 				CE02B52B27140BEB00861F3D /* main.swift */,
 				CE02B53427140DC100861F3D /* utils.swift */,
@@ -227,6 +249,34 @@
 			path = day5;
 			sourceTree = "<group>";
 		};
+		CE3F5843271BFB0F00A569FA /* week2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F5844271BFB1700A569FA /* day1 */,
+			);
+			path = week2;
+			sourceTree = "<group>";
+		};
+		CE3F5844271BFB1700A569FA /* day1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F585D271C47D800A569FA /* lab_1.jpeg */,
+				CE3F585B271C47D800A569FA /* lab_2.jpeg */,
+				CE3F585C271C47D800A569FA /* sketch_1.jpeg */,
+				CE3F585A271C47D800A569FA /* sketch_2.jpeg */,
+				CE3F585E271C47D800A569FA /* sketch_3.jpeg */,
+				CE3F5845271BFE4E00A569FA /* rectangle.swift */,
+				CE3F5847271C059400A569FA /* test_rectangle.swift */,
+				CE3F5849271C05A600A569FA /* patient.swift */,
+				CE3F584B271C09F300A569FA /* test_patient.swift */,
+				CE3F584D271C121200A569FA /* employee.swift */,
+				CE3F584F271C2EE200A569FA /* student.swift */,
+				CE3F5851271C30AB00A569FA /* test_employee.swift */,
+				CE3F5853271C45FB00A569FA /* test_student.swift */,
+			);
+			path = day1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,7 +336,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
+				CE3F584C271C09F300A569FA /* test_patient.swift in Sources */,
 				CE3F583C2718AE4600A569FA /* print_primes.swift in Sources */,
+				CE3F5854271C45FB00A569FA /* test_student.swift in Sources */,
 				CE3F58142718AD7B00A569FA /* check_mark.swift in Sources */,
 				CE3F581C2718AD7B00A569FA /* insurance.swift in Sources */,
 				CE3F58192718AD7B00A569FA /* check_plate.swift in Sources */,
@@ -294,6 +346,7 @@
 				CE3F581F2718AD7B00A569FA /* check_day_v2.swift in Sources */,
 				CE3F582D2718AD9A00A569FA /* optionals_basics.swift in Sources */,
 				CE3F58392718AE4600A569FA /* check_palindrome.swift in Sources */,
+				CE3F5846271BFE4E00A569FA /* rectangle.swift in Sources */,
 				CE3F582B2718AD9A00A569FA /* assign_grades.swift in Sources */,
 				CE3F58222718AD7B00A569FA /* compute_salary_v3.swift in Sources */,
 				CE3F58122718AD7B00A569FA /* check_day.swift in Sources */,
@@ -301,6 +354,7 @@
 				CE3F58162718AD7B00A569FA /* errors.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 				CE3F581E2718AD7B00A569FA /* string_basics.swift in Sources */,
+				CE3F5848271C059400A569FA /* test_rectangle.swift in Sources */,
 				CE3F582A2718AD9A00A569FA /* dict_basics.swift in Sources */,
 				CE3F583B2718AE4600A569FA /* my_functions.swift in Sources */,
 				CE3F58152718AD7B00A569FA /* compute_salary_v2.swift in Sources */,
@@ -309,10 +363,14 @@
 				CE3F581A2718AD7B00A569FA /* loop_basics.swift in Sources */,
 				CE3F581D2718AD7B00A569FA /* check_password.swift in Sources */,
 				CE3F58212718AD7B00A569FA /* quiz_while.swift in Sources */,
+				CE3F584E271C121200A569FA /* employee.swift in Sources */,
 				CE3F582C2718AD9A00A569FA /* nested_arrays.swift in Sources */,
 				CE3F583A2718AE4600A569FA /* call_functions.swift in Sources */,
 				CE3F58202718AD7B00A569FA /* quiz_while_v2.swift in Sources */,
 				CE3F58172718AD7B00A569FA /* quiz.swift in Sources */,
+				CE3F584A271C05A700A569FA /* patient.swift in Sources */,
+				CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */,
+				CE3F5850271C2EE200A569FA /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
