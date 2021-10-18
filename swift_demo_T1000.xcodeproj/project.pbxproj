@@ -45,6 +45,13 @@
 		CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5851271C30AB00A569FA /* test_employee.swift */; };
 		CE3F5854271C45FB00A569FA /* test_student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5853271C45FB00A569FA /* test_student.swift */; };
 		CE3F5868271D46A400A569FA /* account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5867271D46A400A569FA /* account.swift */; };
+		CE3F586A271D5A2200A569FA /* test_account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5869271D5A2200A569FA /* test_account.swift */; };
+		CE3F586C271D5A3800A569FA /* course.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F586B271D5A3800A569FA /* course.swift */; };
+		CE3F586E271D609700A569FA /* test_course_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F586D271D609700A569FA /* test_course_v1.swift */; };
+		CE3F5870271D67D100A569FA /* test_course_v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F586F271D67D100A569FA /* test_course_v2.swift */; };
+		CE3F5872271D67F900A569FA /* general_employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5871271D67F900A569FA /* general_employees.swift */; };
+		CE3F5874271D6E7F00A569FA /* test_general_emps.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5873271D6E7F00A569FA /* test_general_emps.swift */; };
+		CE3F587C271D919000A569FA /* test_polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F587B271D919000A569FA /* test_polymorphism.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +133,18 @@
 		CE3F585D271C47D800A569FA /* lab_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_1.jpeg; sourceTree = "<group>"; };
 		CE3F585E271C47D800A569FA /* sketch_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_3.jpeg; sourceTree = "<group>"; };
 		CE3F5867271D46A400A569FA /* account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = account.swift; sourceTree = "<group>"; };
+		CE3F5869271D5A2200A569FA /* test_account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_account.swift; sourceTree = "<group>"; };
+		CE3F586B271D5A3800A569FA /* course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = course.swift; sourceTree = "<group>"; };
+		CE3F586D271D609700A569FA /* test_course_v1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_course_v1.swift; sourceTree = "<group>"; };
+		CE3F586F271D67D100A569FA /* test_course_v2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_course_v2.swift; sourceTree = "<group>"; };
+		CE3F5871271D67F900A569FA /* general_employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = general_employees.swift; sourceTree = "<group>"; };
+		CE3F5873271D6E7F00A569FA /* test_general_emps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_general_emps.swift; sourceTree = "<group>"; };
+		CE3F5875271D912100A569FA /* lab_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_2.jpeg; sourceTree = "<group>"; };
+		CE3F5876271D912100A569FA /* sketch_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_2.jpeg; sourceTree = "<group>"; };
+		CE3F5877271D912100A569FA /* sketch_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_3.jpeg; sourceTree = "<group>"; };
+		CE3F5878271D912100A569FA /* lab_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_1.jpeg; sourceTree = "<group>"; };
+		CE3F587A271D912100A569FA /* sketch_4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_4.jpeg; sourceTree = "<group>"; };
+		CE3F587B271D919000A569FA /* test_polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_polymorphism.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,7 +305,19 @@
 		CE3F5866271D468700A569FA /* day2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F5878271D912100A569FA /* lab_1.jpeg */,
+				CE3F5876271D912100A569FA /* sketch_2.jpeg */,
+				CE3F5877271D912100A569FA /* sketch_3.jpeg */,
+				CE3F5875271D912100A569FA /* lab_2.jpeg */,
+				CE3F587A271D912100A569FA /* sketch_4.jpeg */,
 				CE3F5867271D46A400A569FA /* account.swift */,
+				CE3F5869271D5A2200A569FA /* test_account.swift */,
+				CE3F586B271D5A3800A569FA /* course.swift */,
+				CE3F586D271D609700A569FA /* test_course_v1.swift */,
+				CE3F586F271D67D100A569FA /* test_course_v2.swift */,
+				CE3F5871271D67F900A569FA /* general_employees.swift */,
+				CE3F5873271D6E7F00A569FA /* test_general_emps.swift */,
+				CE3F587B271D919000A569FA /* test_polymorphism.swift */,
 			);
 			path = day2;
 			sourceTree = "<group>";
@@ -355,6 +386,8 @@
 				CE3F5854271C45FB00A569FA /* test_student.swift in Sources */,
 				CE3F58142718AD7B00A569FA /* check_mark.swift in Sources */,
 				CE3F581C2718AD7B00A569FA /* insurance.swift in Sources */,
+				CE3F587C271D919000A569FA /* test_polymorphism.swift in Sources */,
+				CE3F5870271D67D100A569FA /* test_course_v2.swift in Sources */,
 				CE3F58192718AD7B00A569FA /* check_plate.swift in Sources */,
 				CE3F58182718AD7B00A569FA /* quiz_for.swift in Sources */,
 				CE3F581F2718AD7B00A569FA /* check_day_v2.swift in Sources */,
@@ -367,9 +400,11 @@
 				CE3F58112718AD7B00A569FA /* compute_salary.swift in Sources */,
 				CE3F58162718AD7B00A569FA /* errors.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
+				CE3F5874271D6E7F00A569FA /* test_general_emps.swift in Sources */,
 				B9F38B19271C37F5002B5E8B /* closures.swift in Sources */,
 				CE3F581E2718AD7B00A569FA /* string_basics.swift in Sources */,
 				CE3F5848271C059400A569FA /* test_rectangle.swift in Sources */,
+				CE3F5872271D67F900A569FA /* general_employees.swift in Sources */,
 				CE3F582A2718AD9A00A569FA /* dict_basics.swift in Sources */,
 				CE3F583B2718AE4600A569FA /* my_functions.swift in Sources */,
 				CE3F58152718AD7B00A569FA /* compute_salary_v2.swift in Sources */,
@@ -381,11 +416,14 @@
 				CE3F58212718AD7B00A569FA /* quiz_while.swift in Sources */,
 				CE3F584E271C121200A569FA /* employee.swift in Sources */,
 				CE3F582C2718AD9A00A569FA /* nested_arrays.swift in Sources */,
+				CE3F586C271D5A3800A569FA /* course.swift in Sources */,
 				CE3F583A2718AE4600A569FA /* call_functions.swift in Sources */,
 				CE3F58202718AD7B00A569FA /* quiz_while_v2.swift in Sources */,
 				CE3F58172718AD7B00A569FA /* quiz.swift in Sources */,
 				CE3F584A271C05A700A569FA /* patient.swift in Sources */,
+				CE3F586A271D5A2200A569FA /* test_account.swift in Sources */,
 				CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */,
+				CE3F586E271D609700A569FA /* test_course_v1.swift in Sources */,
 				CE3F5850271C2EE200A569FA /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -53,4 +53,8 @@ class Student {
         Student.count += 1
     }
     
+    convenience init(_ s: Student) {
+        self.init(s.name, s.mark)
+    }
+    
 }

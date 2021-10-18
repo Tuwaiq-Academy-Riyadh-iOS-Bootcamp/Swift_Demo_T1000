@@ -39,5 +39,30 @@ class Account {
     func withdraw(amount: Double) {
         balance -= amount
     }
+}
+
+
+class CheckingAccount : Account {
     
+    override func withdraw(amount: Double) {
+        if amount <= balance {
+            super.withdraw(amount: amount)
+        }
+    }
+    
+}
+
+class SavingAccount : Account {
+    var limit: Double
+    
+    init(_ name: String, _ balance: Double, _ limit: Double) {
+        self.limit = limit
+        super.init(name, balance)
+    }
+    
+    override func withdraw(amount: Double) {
+        if amount <= balance + limit {
+            super.withdraw(amount: amount)
+        }
+    }
 }
