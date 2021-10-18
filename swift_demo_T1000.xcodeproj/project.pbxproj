@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9F38B19271C37F5002B5E8B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F38B18271C37F5002B5E8B /* closures.swift */; };
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
 		CE3F58112718AD7B00A569FA /* compute_salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F57F12718AD7B00A569FA /* compute_salary.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B9F38B18271C37F5002B5E8B /* closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = closures.swift; sourceTree = "<group>"; };
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				CE3F58362718AE4600A569FA /* sketch_2.jpeg */,
 				CE3F58372718AE4600A569FA /* sketch_3.jpeg */,
 				CE3F58382718AE4600A569FA /* print_primes.swift */,
+				B9F38B18271C37F5002B5E8B /* closures.swift */,
 			);
 			path = day5;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				CE3F58112718AD7B00A569FA /* compute_salary.swift in Sources */,
 				CE3F58162718AD7B00A569FA /* errors.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
+				B9F38B19271C37F5002B5E8B /* closures.swift in Sources */,
 				CE3F581E2718AD7B00A569FA /* string_basics.swift in Sources */,
 				CE3F5848271C059400A569FA /* test_rectangle.swift in Sources */,
 				CE3F582A2718AD9A00A569FA /* dict_basics.swift in Sources */,
