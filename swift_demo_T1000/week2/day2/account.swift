@@ -6,3 +6,38 @@
 //
 
 import Foundation
+
+class Account {
+    var name: String
+    private var _balance: Double
+    static var annualRate: Double = 0.04
+    
+    private(set) var balance: Double {
+        get { _balance }
+        set {
+            _balance = newValue
+        }
+    }
+    
+    init(_ name: String, _ balance: Double) {
+        self.name = name
+        self._balance = balance
+    }
+    
+    static var monthlyRate: Double {
+        Account.annualRate / 12
+    }
+    
+    var monthlyInt: Double {
+        Account.monthlyRate * balance
+    }
+    
+    func deposit(amount: Double) {
+        balance += amount
+    }
+    
+    func withdraw(amount: Double) {
+        balance -= amount
+    }
+    
+}

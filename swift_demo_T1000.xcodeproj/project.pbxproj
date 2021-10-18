@@ -44,6 +44,7 @@
 		CE3F5850271C2EE200A569FA /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F584F271C2EE200A569FA /* student.swift */; };
 		CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5851271C30AB00A569FA /* test_employee.swift */; };
 		CE3F5854271C45FB00A569FA /* test_student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5853271C45FB00A569FA /* test_student.swift */; };
+		CE3F5868271D46A400A569FA /* account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5867271D46A400A569FA /* account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +125,7 @@
 		CE3F585C271C47D800A569FA /* sketch_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_1.jpeg; sourceTree = "<group>"; };
 		CE3F585D271C47D800A569FA /* lab_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_1.jpeg; sourceTree = "<group>"; };
 		CE3F585E271C47D800A569FA /* sketch_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_3.jpeg; sourceTree = "<group>"; };
+		CE3F5867271D46A400A569FA /* account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 		CE3F5843271BFB0F00A569FA /* week2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F5866271D468700A569FA /* day2 */,
 				CE3F5844271BFB1700A569FA /* day1 */,
 			);
 			path = week2;
@@ -278,6 +281,14 @@
 				CE3F5853271C45FB00A569FA /* test_student.swift */,
 			);
 			path = day1;
+			sourceTree = "<group>";
+		};
+		CE3F5866271D468700A569FA /* day2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F5867271D46A400A569FA /* account.swift */,
+			);
+			path = day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +376,7 @@
 				CE3F58132718AD7B00A569FA /* analyze_marks.swift in Sources */,
 				CE3F581B2718AD7B00A569FA /* quiz_repeat.swift in Sources */,
 				CE3F581A2718AD7B00A569FA /* loop_basics.swift in Sources */,
+				CE3F5868271D46A400A569FA /* account.swift in Sources */,
 				CE3F581D2718AD7B00A569FA /* check_password.swift in Sources */,
 				CE3F58212718AD7B00A569FA /* quiz_while.swift in Sources */,
 				CE3F584E271C121200A569FA /* employee.swift in Sources */,
