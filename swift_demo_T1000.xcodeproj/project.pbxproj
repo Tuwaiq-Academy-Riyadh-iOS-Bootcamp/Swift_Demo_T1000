@@ -52,6 +52,9 @@
 		CE3F5872271D67F900A569FA /* general_employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5871271D67F900A569FA /* general_employees.swift */; };
 		CE3F5874271D6E7F00A569FA /* test_general_emps.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5873271D6E7F00A569FA /* test_general_emps.swift */; };
 		CE3F587C271D919000A569FA /* test_polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F587B271D919000A569FA /* test_polymorphism.swift */; };
+		CE3F5885271EA5BE00A569FA /* test_operator_overloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5884271EA5BE00A569FA /* test_operator_overloading.swift */; };
+		CE3F5887271EB47D00A569FA /* test_extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5886271EB47D00A569FA /* test_extensions.swift */; };
+		CE3F5889271EBED200A569FA /* test_protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5888271EBED200A569FA /* test_protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -145,6 +148,9 @@
 		CE3F5878271D912100A569FA /* lab_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab_1.jpeg; sourceTree = "<group>"; };
 		CE3F587A271D912100A569FA /* sketch_4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch_4.jpeg; sourceTree = "<group>"; };
 		CE3F587B271D919000A569FA /* test_polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_polymorphism.swift; sourceTree = "<group>"; };
+		CE3F5884271EA5BE00A569FA /* test_operator_overloading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_operator_overloading.swift; sourceTree = "<group>"; };
+		CE3F5886271EB47D00A569FA /* test_extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_extensions.swift; sourceTree = "<group>"; };
+		CE3F5888271EBED200A569FA /* test_protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +282,7 @@
 		CE3F5843271BFB0F00A569FA /* week2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F5883271E985F00A569FA /* day3 */,
 				CE3F5866271D468700A569FA /* day2 */,
 				CE3F5844271BFB1700A569FA /* day1 */,
 			);
@@ -320,6 +327,16 @@
 				CE3F587B271D919000A569FA /* test_polymorphism.swift */,
 			);
 			path = day2;
+			sourceTree = "<group>";
+		};
+		CE3F5883271E985F00A569FA /* day3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F5884271EA5BE00A569FA /* test_operator_overloading.swift */,
+				CE3F5886271EB47D00A569FA /* test_extensions.swift */,
+				CE3F5888271EBED200A569FA /* test_protocols.swift */,
+			);
+			path = day3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +401,7 @@
 				CE3F584C271C09F300A569FA /* test_patient.swift in Sources */,
 				CE3F583C2718AE4600A569FA /* print_primes.swift in Sources */,
 				CE3F5854271C45FB00A569FA /* test_student.swift in Sources */,
+				CE3F5885271EA5BE00A569FA /* test_operator_overloading.swift in Sources */,
 				CE3F58142718AD7B00A569FA /* check_mark.swift in Sources */,
 				CE3F581C2718AD7B00A569FA /* insurance.swift in Sources */,
 				CE3F587C271D919000A569FA /* test_polymorphism.swift in Sources */,
@@ -414,12 +432,14 @@
 				CE3F5868271D46A400A569FA /* account.swift in Sources */,
 				CE3F581D2718AD7B00A569FA /* check_password.swift in Sources */,
 				CE3F58212718AD7B00A569FA /* quiz_while.swift in Sources */,
+				CE3F5889271EBED200A569FA /* test_protocols.swift in Sources */,
 				CE3F584E271C121200A569FA /* employee.swift in Sources */,
 				CE3F582C2718AD9A00A569FA /* nested_arrays.swift in Sources */,
 				CE3F586C271D5A3800A569FA /* course.swift in Sources */,
 				CE3F583A2718AE4600A569FA /* call_functions.swift in Sources */,
 				CE3F58202718AD7B00A569FA /* quiz_while_v2.swift in Sources */,
 				CE3F58172718AD7B00A569FA /* quiz.swift in Sources */,
+				CE3F5887271EB47D00A569FA /* test_extensions.swift in Sources */,
 				CE3F584A271C05A700A569FA /* patient.swift in Sources */,
 				CE3F586A271D5A2200A569FA /* test_account.swift in Sources */,
 				CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */,

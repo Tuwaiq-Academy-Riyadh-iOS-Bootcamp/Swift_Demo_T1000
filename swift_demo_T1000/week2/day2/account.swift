@@ -7,10 +7,22 @@
 
 import Foundation
 
-class Account {
+class Account : CustomStringConvertible, Comparable {
+    
+    static func == (lhs: Account, rhs: Account) -> Bool {
+        return lhs.balance == rhs.balance
+    }
+    
+    static func < (lhs: Account, rhs: Account) -> Bool {
+        return lhs.balance < rhs.balance
+    }
+    
     var name: String
     private var _balance: Double
     static var annualRate: Double = 0.04
+    var description: String {
+        return "Account: \(name), \(balance)"
+    }
     
     private(set) var balance: Double {
         get { _balance }
@@ -38,6 +50,15 @@ class Account {
     
     func withdraw(amount: Double) {
         balance -= amount
+    }
+    
+    public static func += (_ lhs: Account, _ rhs: Double) {
+//        lhs.balance += rhs
+        lhs.deposit(amount: rhs)
+    }
+    
+    public static func -= (_ lhs: Account, _ rhs: Double) {
+        lhs.withdraw(amount: rhs)
     }
 }
 

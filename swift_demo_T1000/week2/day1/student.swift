@@ -7,7 +7,12 @@
 
 import Foundation
 
-class Student {
+class Student : CustomStringConvertible {
+
+    var description: String {
+        return "Student: \(name), \(percentage)%"
+    }
+    
     var name: String
     private var _mark: Double
     
