@@ -18,6 +18,10 @@ class GeneralEmployee {
         self.salary = salary
     }
     
+    convenience init(_ e: GeneralEmployee) {
+        self.init(e.empId, e.empName, e.salary)
+    }
+    
     var annualSalary: Double {
         salary * 12
     }

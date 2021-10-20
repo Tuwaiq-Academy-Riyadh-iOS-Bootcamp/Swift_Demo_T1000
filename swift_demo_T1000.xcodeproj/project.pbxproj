@@ -55,6 +55,10 @@
 		CE3F5885271EA5BE00A569FA /* test_operator_overloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5884271EA5BE00A569FA /* test_operator_overloading.swift */; };
 		CE3F5887271EB47D00A569FA /* test_extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5886271EB47D00A569FA /* test_extensions.swift */; };
 		CE3F5889271EBED200A569FA /* test_protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F5888271EBED200A569FA /* test_protocols.swift */; };
+		CE3F588C271FF9A500A569FA /* test_enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F588B271FF9A500A569FA /* test_enum.swift */; };
+		CE3F588E271FFFD400A569FA /* department.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F588D271FFFD400A569FA /* department.swift */; };
+		CE3F58902720213900A569FA /* test_aggregation_and_composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F588F2720213900A569FA /* test_aggregation_and_composition.swift */; };
+		CE3F589227202D2800A569FA /* test_protocols_again.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F589127202D2800A569FA /* test_protocols_again.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +155,10 @@
 		CE3F5884271EA5BE00A569FA /* test_operator_overloading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_operator_overloading.swift; sourceTree = "<group>"; };
 		CE3F5886271EB47D00A569FA /* test_extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_extensions.swift; sourceTree = "<group>"; };
 		CE3F5888271EBED200A569FA /* test_protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_protocols.swift; sourceTree = "<group>"; };
+		CE3F588B271FF9A500A569FA /* test_enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_enum.swift; sourceTree = "<group>"; };
+		CE3F588D271FFFD400A569FA /* department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = department.swift; sourceTree = "<group>"; };
+		CE3F588F2720213900A569FA /* test_aggregation_and_composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_aggregation_and_composition.swift; sourceTree = "<group>"; };
+		CE3F589127202D2800A569FA /* test_protocols_again.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_protocols_again.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +290,7 @@
 		CE3F5843271BFB0F00A569FA /* week2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F588A271FF99000A569FA /* day4 */,
 				CE3F5883271E985F00A569FA /* day3 */,
 				CE3F5866271D468700A569FA /* day2 */,
 				CE3F5844271BFB1700A569FA /* day1 */,
@@ -337,6 +346,17 @@
 				CE3F5888271EBED200A569FA /* test_protocols.swift */,
 			);
 			path = day3;
+			sourceTree = "<group>";
+		};
+		CE3F588A271FF99000A569FA /* day4 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F588B271FF9A500A569FA /* test_enum.swift */,
+				CE3F588D271FFFD400A569FA /* department.swift */,
+				CE3F588F2720213900A569FA /* test_aggregation_and_composition.swift */,
+				CE3F589127202D2800A569FA /* test_protocols_again.swift */,
+			);
+			path = day4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +420,7 @@
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
 				CE3F584C271C09F300A569FA /* test_patient.swift in Sources */,
 				CE3F583C2718AE4600A569FA /* print_primes.swift in Sources */,
+				CE3F588C271FF9A500A569FA /* test_enum.swift in Sources */,
 				CE3F5854271C45FB00A569FA /* test_student.swift in Sources */,
 				CE3F5885271EA5BE00A569FA /* test_operator_overloading.swift in Sources */,
 				CE3F58142718AD7B00A569FA /* check_mark.swift in Sources */,
@@ -409,6 +430,8 @@
 				CE3F58192718AD7B00A569FA /* check_plate.swift in Sources */,
 				CE3F58182718AD7B00A569FA /* quiz_for.swift in Sources */,
 				CE3F581F2718AD7B00A569FA /* check_day_v2.swift in Sources */,
+				CE3F588E271FFFD400A569FA /* department.swift in Sources */,
+				CE3F58902720213900A569FA /* test_aggregation_and_composition.swift in Sources */,
 				CE3F582D2718AD9A00A569FA /* optionals_basics.swift in Sources */,
 				CE3F58392718AE4600A569FA /* check_palindrome.swift in Sources */,
 				CE3F5846271BFE4E00A569FA /* rectangle.swift in Sources */,
@@ -442,6 +465,7 @@
 				CE3F5887271EB47D00A569FA /* test_extensions.swift in Sources */,
 				CE3F584A271C05A700A569FA /* patient.swift in Sources */,
 				CE3F586A271D5A2200A569FA /* test_account.swift in Sources */,
+				CE3F589227202D2800A569FA /* test_protocols_again.swift in Sources */,
 				CE3F5852271C30AB00A569FA /* test_employee.swift in Sources */,
 				CE3F586E271D609700A569FA /* test_course_v1.swift in Sources */,
 				CE3F5850271C2EE200A569FA /* student.swift in Sources */,
